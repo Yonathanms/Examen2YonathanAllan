@@ -69,7 +69,7 @@ public class Calculadora {
         }
     }
     // Método para buscar un elemento en una lista de números enteros
-    public static boolean Encuentra(java.util.List<Integer> lista, int elemento) {
+    public static boolea Encuentra(java.util.List<Integer> lista, int elemento) {
         if (lista == null) {
             return false;
         }

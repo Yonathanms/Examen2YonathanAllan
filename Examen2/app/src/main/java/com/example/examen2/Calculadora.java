@@ -68,4 +68,12 @@ public class Calculadora {
                 throw new IllegalArgumentException("Base de destino no soportada");
         }
     }
+
+    // Método para buscar un elemento en una lista de números enteros
+    public static boolean Encuentra(java.util.List<Integer> lista, int elemento) {
+        if (lista == null) {
+            return false;
+        }
+        return lista.contains(elemento);
+    }
 }
